@@ -41,3 +41,11 @@
 `./build/ARM/gem5.opt configs/example/arm/starter_se.py --cpu-type="minor" "tests/test-progs/hello/bin/arm/linux/hello"`
 
 ουσιαστικά κρατήσαμε ολες τις **default** παραμέτρους ίδιες εκτός απο τον τυπο του cpu που απο **AtomicSimpleCpu** τον αλλάξαμε σε **MinorCpu** , χρησιμοποιόντας το flag: **--cpu-type="minor"**.
+
+  - **CPU Model** : Minor CPU
+  - **CPU Frequency** : 4Ghz
+  - **Number Of Cores** : 1
+  - **Memory Type** : DDR3 @ 1600 MHz 8x8 configuration
+  - **Memory Channels** : 2
+  - **Memory Size** : 2 GB
+  
