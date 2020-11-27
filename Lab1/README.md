@@ -48,6 +48,7 @@ Kρατήσαμε ολες τις **default** παραμέτρους ίδιες 
    -  **Memory Type** : DDR3 @ 1600 MHz 8x8 configuration
    -  **Memory Channels** : 2
    -  **Memory Size** : 2 GB
+   -  **Cache Line Size** : 64 B
 
 ## 2a. Config Files
 
@@ -62,6 +63,7 @@ Kρατήσαμε ολες τις **default** παραμέτρους ίδιες 
 | 58 | `clock=250` | Υπονοείται 250 ns και κατα συνέπεια 4 GHz |
 | 1405 <br> 1411| `banks_per_rank=8` <br> `device_bus_width=8` |  Επιβεβαιώνετε το 8X8 configuration της DDR3 μνήμης που χρησιμοποιήσαμε |
 | 21 | `mem_ranges=0:2147483648` | 2^31 bytes αρα 2 GB μέγεθος μνήμης |
+| 15 | `cache_line_size=64` | Διαπιστώνουμε και την τελική επιβεβαίωση του μεγέθους της cache line |
     
     
   
