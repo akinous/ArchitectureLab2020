@@ -34,6 +34,6 @@
 
 ## 1. System Configuration
 
-Η βασική διαμόρφωση του συστήματος μας βρίσκεται στην **main** συνάρτηση του αρχείου <code> starter_se.py </code>.
+Η βασική διαμόρφωση του συστήματος μας βρίσκεται στην **main** συνάρτηση του αρχείου *starter_se.py*.
 Όταν εκτελέσαμε την εντολή <code> ./build/ARM/gem5.opt -d hello_result configs/example/arm/starter_se.py --cpu-type="minor" "tests/test-progs/hello/bin/arm/linux/hello" </code>
-ουσιαστικά κρατήσαμε ολες τις **default** παραμέτρους ίδιες εκτός απο τον τυπο του cpu που απο **AtomicSimpleCpu** τον αλλάξαμε σε **MinorCpu** , χρησιμοποιόντας το *flag* <code>--cpu-type="minor"</code>.
+ουσιαστικά κρατήσαμε ολες τις **default** παραμέτρους ίδιες εκτός απο τον τυπο του cpu που απο **AtomicSimpleCpu** τον αλλάξαμε σε **MinorCpu** , χρησιμοποιόντας το flag: **--cpu-type="minor"**.
