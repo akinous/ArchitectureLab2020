@@ -60,7 +60,8 @@ Kρατήσαμε ολες τις **default** παραμέτρους ίδιες 
 | --- | --- | --- |
 | 65 | `type=MinorCPU` | Επιβεβαιώνεται οτι ο τύπος της cpu που χρησιμοποιούμαι ειναι η MinorCPU |
 | 58 | `clock=250` | Υπονοείται 250 ns και κατα συνέπεια 4 GHz |
-| 1405 <br> 1411| banks_per_rank=8 <br> device_bus_width=8 | 
+| 1405 <br> 1411| `banks_per_rank=8` <br> `device_bus_width=8` |  Επιβεβαιώνετε το 8X8 configuration της DDR3 μνήμης που χρησιμοποιήσαμε |
+| 21 | `mem_ranges=0:2147483648` | 2^31 bytes αρα 2 GB μέγεθος μνήμης |
     
     
   
