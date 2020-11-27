@@ -48,4 +48,15 @@ Kρατήσαμε ολες τις **default** παραμέτρους ίδιες 
    -  **Memory Type** : DDR3 @ 1600 MHz 8x8 configuration
    -  **Memory Channels** : 2
    -  **Memory Size** : 2 GB
+
+## 2a. Config Files
+
+Σε αυτό το ερώτημα χρησιμοποιούμε τα αρχεία διαμόρφωσης **config.ini** και **config.json** για να επιβεβαιώσουμε τις [παραμέτρους](#1-system-configuration) που βρήκαμε εντός του **starter_se.py**.
+Παρακάτω παραθέτουμε έναν πίνακα που αντιστοιχίζει τις γραμμές του αρχείου **config.ini** με τις παραπάνω παραμέτρους:
+
+
+| Line | Parameter | 
+
+
+   
   
