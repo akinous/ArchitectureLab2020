@@ -12,7 +12,7 @@
 >    > ***ΑΕΜ:***
 
 ## Περιεχόμενα:
-> 1. [`Καταγραφή βασικών χαρακτηριστικών του συστήματος που μελετάμε, μέσω του αρχείου **starter_se.py**.1](#1-system-configuration)
+> 1. [`Καταγραφή βασικών χαρακτηριστικών του συστήματος που μελετάμε, μέσω του αρχείου **starter_se.py**.1`](#1-system-configuration)
 >
 > 2. Μελέτη καταγεγραμμένων στατιστικών του συστήματος μετα απο την εκτέλεση βασικόυ προγράμματος (*hello world*)
 >
@@ -32,7 +32,7 @@
 > 4. Κριτική Εργασίας.
 
 
-## 1.System Configuration
+## 1. System Configuration
 
 Η βασική διαμόρφωση του συστήματος μας βρίσκεται στην **main** συνάρτηση του αρχείου <code> starter_se.py </code>.
 Όταν εκτελέσαμε την εντολή <code> ./build/ARM/gem5.opt -d hello_result configs/example/arm/starter_se.py --cpu-type="minor" "tests/test-progs/hello/bin/arm/linux/hello" </code>
