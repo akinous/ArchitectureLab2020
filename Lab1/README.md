@@ -64,6 +64,18 @@ Kρατήσαμε ολες τις **default** παραμέτρους ίδιες 
 | 1405 <br> 1411| `banks_per_rank=8` <br> `device_bus_width=8` |  Επιβεβαιώνετε το 8X8 configuration της DDR3 μνήμης που χρησιμοποιήσαμε |
 | 21 | `mem_ranges=0:2147483648` | 2^31 bytes αρα 2 GB μέγεθος μνήμης |
 | 15 | `cache_line_size=64` | Διαπιστώνουμε και την τελική επιβεβαίωση του μεγέθους της cache line |
+
+## 2b. Commited Instructions
+
+Μελετώντας το αρχείο **stats.txt** βρισκουμε στις γραμμες **473** και **474** τα πεδία `Number of Instructions committed` και `Number of Ops committed` αντίστοιχα.
+
+Όμως παρατηρούμε οτι ο αριθμός των commited εντολών ειναι 5028 ***ΑΛΛΑ*** των commited operations 5834.
+
+Αμέσως δημιουργείται η εύλογη απορία σε τι οφείλεται η προαναφερθέισα αρκετά μεγάλη διαφορά.Για να λύσουμε αυτό το ζήτημα θα μελετήσουμε το pipeline του MinorCPU.
+
+### MinorCPU PIPELIne
+    
+    - Fetch 1 : 
     
     
   
