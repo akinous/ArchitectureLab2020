@@ -30,3 +30,10 @@
 >    > c) Αλλαγή παραμέτρων **CPU**,**Memory** στο ίδιο μοντέλο και σύγκριση αποτελεσμάτων.
 >   
 > 4. Κριτική Εργασίας.
+
+
+## 1.System Configuration
+
+Η βασική διαμόρφωση του συστήματος μας βρίσκεται στην **main** συνάρτηση του αρχείου <code> starter_se.py </code>.
+Όταν εκτελέσαμε την εντολή <code> ./build/ARM/gem5.opt -d hello_result configs/example/arm/starter_se.py --cpu-type="minor" "tests/test-progs/hello/bin/arm/linux/hello" </code>
+ουσιαστικά κρατήσαμε ολες τις **default** παραμέτρους ίδιες εκτός απο τον τυπο του cpu που απο **AtomicSimpleCpu** τον αλλάξαμε σε **MinorCpu** ,<code> --cpu-type="minor" </code>
