@@ -153,12 +153,12 @@ Kρατήσαμε ολες τις **default** παραμέτρους ίδιες 
 
 | CPU clock | CPU type | Simulation Seconds |
 | --- | --- | --- |
-| 1 | Minor | |
-| 3 | Minor | |
-| 5 | Minor | |
-| 1 | TimingSimple | |
-| 3 | TimingSimple | |
-| 5 | TimingSImple | |
+| 1 GHz | Minor | |
+| 2 GHz | Minor | |
+| 5 GHz | Minor | |
+| 1 GHz | TimingSimple | |
+| 2 GHz | TimingSimple | |
+| 5 GHz | TimingSImple | |
 
 
 
