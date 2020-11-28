@@ -76,7 +76,8 @@ Kρατήσαμε ολες τις **default** παραμέτρους ίδιες 
 ### MinorCPU PIPELIne
     
 > - Fetch 1 :
-  > Υπεύθηνο για να μεταφέρει
+>  
+>  > Μονάδα υπεύθηνη για την λήψη cache lines απο το ICache Interface Port.
     
     
   
