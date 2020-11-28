@@ -73,11 +73,11 @@ Kρατήσαμε ολες τις **default** παραμέτρους ίδιες 
 
 Αμέσως δημιουργείται η εύλογη απορία σε τι οφείλεται η προαναφερθέισα αρκετά μεγάλη διαφορά.Για να λύσουμε αυτό το ζήτημα θα μελετήσουμε το pipeline του MinorCPU.
 
-### MinorCPU PIPELIne
+### MinorCPU PIPELINE
     
 > - Fetch 1 :
 >  
->  > Μονάδα υπεύθηνη για την λήψη cache lines απο το ICache Interface Port.
+>    > Μονάδα υπεύθηνη για την λήψη cache lines απο το ICache Interface Port.
     
     
   
