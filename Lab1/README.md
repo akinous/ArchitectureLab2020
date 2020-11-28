@@ -77,7 +77,21 @@ Kρατήσαμε ολες τις **default** παραμέτρους ίδιες 
     
 > - Fetch 1 :
 >  
->    > Μονάδα υπεύθηνη για την λήψη cache lines απο το ICache Interface Port.
+>    > Μονάδα υπεύθηνη για την λήψη cache lines απο το ICache Interface.
+>
+> - Fetch 2 :
+>
+>    > Ανάλυση των cache lines σε instructions.
+>
+> - Decode :
+>
+>    > Περαιτέρω αποσύνθεση των instructions σε micro operations.
+>
+> - Execute :
+>    > Εκτέλεση των micro operations.
+
+Εύκολα γινεται αντιληπτό απο το παραπάνω διάγραμμα οτι ο αριθμός των micro ops ειναι σαφώς μεγαλύτερος του αριθμού των instructions και συνεπώς ο αριθμός των commited operations
+(που περιεχει και τα micro operations) θα ειναι μεγαλύτερος απο τον αριθμό των commited instuctions.
     
     
   
