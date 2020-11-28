@@ -151,14 +151,14 @@ Kρατήσαμε ολες τις **default** παραμέτρους ίδιες 
 
 ### Αρχικά αλλάξαμε το ρολόι στα 2GHz και 5GHz αντίστοιχα και μετρήσαμε τους χρόνους εκτέλεσης
 
-> | CPU clock | CPU type | Simulation Seconds (σε ms) |
-> | --- | --- | --- |
-> | 1 GHz | Minor | 0.334 |
-> | 2 GHz | Minor | 0.320 |
-> | 5 GHz | Minor | 0.313 |
-> | 1 GHz | TimingSimple | 0.644 |
-> | 2 GHz | TimingSimple | 0.642 |
-> | 5 GHz | TimingSImple | 0.640 |
+| CPU clock | CPU type | Simulation Seconds (σε ms) |
+| --- | --- | --- |
+| 1 GHz | Minor | 0.334 |
+| 2 GHz | Minor | 0.320 |
+| 5 GHz | Minor | 0.313 |
+| 1 GHz | TimingSimple | 0.644 |
+| 2 GHz | TimingSimple | 0.642 |
+| 5 GHz | TimingSImple | 0.640 |
 
 Όπως βλέπουμε η επιτάχυνση της **TimingSimpleCPU** απο το 1GHz στα 5GHz ειναι ελάχιστη και συγκεκριμένα ***0.62%*** καθώς όπως προαναφέραμε το μοντέλο περιορίζεται απο τις αργές προσβάσεις στην μνήμη. Στην περίπτωση τώρα του μοντέλου **MinorCPU** η αύξηση ειναι πολυ μεγαλύτερη ***6%*** επειδή με την αύξηση του ρολογιού επιταχύνονται τα στάδια του [**pipeline**](#minorcpu-pipeline) που δεν αφορούν προσβάσεις σε μνήμη.
 
@@ -189,6 +189,7 @@ Kρατήσαμε ολες τις **default** παραμέτρους ίδιες 
 ## Πηγές
 
 [Gem5 Official Documentation](https://www.gem5.org/)
+
 [Gem5 Secondary Documentation](http://pages.cs.wisc.edu/~swilson/gem5-docs/index.html)
 
 
