@@ -1,8 +1,10 @@
-# Εργασία Πρώτου Εργαστηρίου _Αρχιτεκτονικής Υπολογιστών_.
+# _Εργασία 1<sup>ου</sup> Εργαστηρίου Αρχιτεκτονικής Υπολογιστών_
 
-# ΤΗΜΜΥ 2020-2021
+### ΤΗΜΜΥ 2020-2021
 
-## Συγγραφείς: 
+## Ομάδα 14
+
+## Συγγραφείς 
 - **Κινούς Αλέξανδρος**  
 ***ΑΕΜ: 8834***
 
@@ -19,13 +21,13 @@
 >    > b) [Aνάλυση των **commited instructions** που προσομοιώθηκαν.](#2b-commited-instructions)
 >    >
 >    > c) [Μελέτη των προσπελάσεων στην **L2 CACHE** που συνέβησαν](#2c-l2-cache-access).
-> 3. Εισαγωγή διαφορετικών μοντέλων ***in-order cpu*** ,benchmarks σε *δικο μας* πρόγραμμα και [πληροφορίες για τα μοντέλα cpu του gem5](#3-διαφορετικά-μοντέλα-in-order-cpu).
+> 3. Εισαγωγή διαφορετικών μοντέλων ***in-order cpu***, benchmarks σε *δικό μας* πρόγραμμα και [πληροφορίες για τα μοντέλα cpu του gem5](#3-διαφορετικά-μοντέλα-in-order-cpu).
 >
->    > a) [Εκτέλεση του εν λόγω προγράμματος σε **TimingSimpleCPU** , **MinorCPU** και σύγκριση αποτελεσμάτων](#3a-benchmarks-δικού-μας-προγράμματος-σε-timingsimplecpu-και-minorcpu).
+>    > a) [Εκτέλεση του εν λόγω προγράμματος σε **TimingSimpleCPU**, **MinorCPU** και σύγκριση αποτελεσμάτων](#3a-benchmarks-δικού-μας-προγράμματος-σε-timingsimplecpu-και-minorcpu).
 >    >
 >    > b) [Ερμηνεία των αποτελεσμάτων **βάσει** των διαφορών των *δύο παραπάνω μοντέλων*](#3b-ερμηνεία-των-παραπάνω-αποτελεσμάτων).
 >    >
->    > c) [Αλλαγή παραμέτρων **CPU**,**Memory** στο ίδιο μοντέλο και σύγκριση αποτελεσμάτων](#3c-αλλαγή-παραμέτρων-cpu-μνήμης-και-ερμηνεία-αποτελεσμάτων).
+>    > c) [Αλλαγή παραμέτρων **CPU**, **Memory** στο ίδιο μοντέλο και σύγκριση αποτελεσμάτων](#3c-αλλαγή-παραμέτρων-cpu-μνήμης-και-ερμηνεία-αποτελεσμάτων).
 >   
 > 4. [Κριτική Εργασίας](#κριτική-εργασίας).
 >
@@ -54,22 +56,22 @@ Kρατήσαμε όλες τις **default** παραμέτρους ίδιες 
 
 Σε αυτό το ερώτημα χρησιμοποιούμε τα αρχεία διαμόρφωσης **config.ini** και **config.json** για να επιβεβαιώσουμε τις [παραμέτρους](#1-system-configuration) που βρήκαμε εντός του **starter_se.py**.
 
-Παρακάτω παραθέτουμε έναν πίνακα που αντιστοιχίζει τις γραμμές του αρχείου **config.ini** με τις παραπάνω παραμέτρους :
+Παρακάτω παραθέτουμε έναν πίνακα που αντιστοιχίζει τις γραμμές του αρχείου **config.ini** με τις παραπάνω παραμέτρους:
 
 
 | Line |    Parameter    |     Comments     |
 | --- | --- | --- |
-| 65 | `type=MinorCPU` | Επιβεβαιώνεται οτι ο τύπος της cpu που χρησιμοποιούμε ειναι η MinorCPU |
-| 58 | `clock=250` | Υπονοείται 250 ns και κατά συνέπεια 4 GHz |
-| 1405 <br> 1411| `banks_per_rank=8` <br> `device_bus_width=8` |  Επιβεβαιώνετε το 8X8 configuration της DDR3 μνήμης που χρησιμοποιήσαμε |
-| 21 | `mem_ranges=0:2147483648` | 2^31 bytes αρα 2 GB μέγεθος μνήμης |
-| 15 | `cache_line_size=64` | Διαπιστώνουμε και την τελική επιβεβαίωση του μεγέθους της cache line |
+| <div align="center">65</div> | <div align="center">`type=MinorCPU`</div> | <div align="center">Επιβεβαιώνεται οτι ο τύπος της cpu που χρησιμοποιούμε είναι η MinorCPU</div> |
+| <div align="center">58</div> | <div align="center">`clock=250`</div> | <div align="center">Υπονοείται 250 ns και κατά συνέπεια 4 GHz</div> |
+| <div align="center">1405 <br> 1411</div>| <div align="center">`banks_per_rank=8` <br> `device_bus_width=8`</div> |  <div align="center">Επιβεβαιώνεται το 8X8 configuration της DDR3 μνήμης που χρησιμοποιήσαμε</div> |
+| <div align="center">21</div> | <div align="center">`mem_ranges=0:2147483648`</div> | <div align="center">2^31 bytes άρα 2 GB μέγεθος μνήμης</div> |
+| <div align="center">15</div> | <div align="center">`cache_line_size=64`</div> | <div align="center">Διαπιστώνουμε και την τελική επιβεβαίωση του μεγέθους της cache line</div> |
 
 ## 2b. Commited Instructions
 
 Μελετώντας το αρχείο **stats.txt** εντοπίζουμε στις γραμμές **473** και **474** τα πεδία `Number of Instructions committed` και `Number of Ops committed` αντίστοιχα.
 
-Όμως παρατηρούμε ότι ο αριθμός των commited εντολών ειναι 5028 ***ΑΛΛΑ*** των commited operations 5834.
+Όμως παρατηρούμε ότι ο αριθμός των commited εντολών ειναι 5028 ***ΕΝΩ*** των commited operations 5834.
 
 Αμέσως δημιουργείται η εύλογη απορία σε τι οφείλεται η προαναφερθείσα αρκετά μεγάλη διαφορά. Για να επιλύσουμε αυτό το ζήτημα θα μελετήσουμε το pipeline του MinorCPU.
 
@@ -77,7 +79,7 @@ Kρατήσαμε όλες τις **default** παραμέτρους ίδιες 
     
 > - Fetch 1 :
 >  
->    > Μονάδα υπεύθηνη για την λήψη cache lines απο το ICache Interface.
+>    > Μονάδα υπεύθυνη για την λήψη cache lines απο το ICache Interface.
 >
 > - Fetch 2 :
 >
@@ -90,12 +92,12 @@ Kρατήσαμε όλες τις **default** παραμέτρους ίδιες 
 > - Execute :
 >    > Εκτέλεση των micro operations.
 
-Εύκολα γινεται αντιληπτό από το παραπάνω διάγραμμα ότι ο αριθμός των **micro ops** ειναι σαφώς μεγαλύτερος του αριθμού των **instructions** και συνεπώς ο αριθμός των **commited operations** (που περιέχει και τα micro operations) θα είναι μεγαλύτερος από τον αριθμό των **commited instuctions**.
+Εύκολα γίνεται αντιληπτό από το παραπάνω διάγραμμα ότι ο αριθμός των **micro ops** είναι σαφώς μεγαλύτερος του αριθμού των **instructions** και συνεπώς ο αριθμός των **commited operations** (που περιέχει και τα micro operations) θα είναι μεγαλύτερος από τον αριθμό των **commited instuctions**.
 
 
 ## 2c. L2 Cache Access
 
-θα μελετηθει αργοτερα..
+θα μελετηθεί αργότερα..
 
 
 
@@ -104,7 +106,7 @@ Kρατήσαμε όλες τις **default** παραμέτρους ίδιες 
 
 ### SimpleCPU
 
-> Το **SimpleCPU** αποτελεί ένα πολύ απλό στην υλοποίηση in order μοντέλο κατασκευασμένο για χρήση σε απλά τεστ , όπου δεν είναι απαραίτητη η χρήση κάποιου πιο περίπλοκου μοντέλου.
+> Το **SimpleCPU** αποτελεί ένα πολύ απλό στην υλοποίηση _in order_ μοντέλο κατασκευασμένο για χρήση σε απλά τεστ, όπου δεν είναι απαραίτητη η χρήση κάποιου πιο περίπλοκου μοντέλου.
 
 ### ΑtomicSimpleCPU
 
@@ -147,12 +149,12 @@ Kρατήσαμε όλες τις **default** παραμέτρους ίδιες 
 
 | CPU clock | CPU type | Simulation Seconds (σε ms) |
 | --- | --- | --- |
-| 1 GHz | Minor | 0.334 |
-| 2 GHz | Minor | 0.320 |
-| 5 GHz | Minor | 0.313 |
-| 1 GHz | TimingSimple | 0.644 |
-| 2 GHz | TimingSimple | 0.642 |
-| 5 GHz | TimingSImple | 0.640 |
+| <div align="center">1 GHz</div> | <div align="center">Minor</div> | <div align="center">0.334</div> |
+| <div align="center">2 GHz</div> | <div align="center">Minor</div> | <div align="center">0.320</div> |
+| <div align="center">5 GHz</div> | <div align="center">Minor</div> | <div align="center">0.313</div> |
+| <div align="center">1 GHz</div> | <div align="center">TimingSimple</div> | <div align="center">0.644</div> |
+| <div align="center">2 GHz</div> | <div align="center">TimingSimple</div> | <div align="center">0.642</div> |
+| <div align="center">5 GHz</div> | <div align="center">TimingSImple</div> | <div align="center">0.640</div> |
 
 Όπως βλέπουμε η επιτάχυνση της **TimingSimpleCPU** από το 1GHz στα 5GHz είναι ελάχιστη και συγκεκριμένα ***0.62%***, καθώς, όπως προαναφέραμε, το μοντέλο περιορίζεται από τις αργές προσβάσεις στην μνήμη. Στην περίπτωση τώρα του μοντέλου **MinorCPU** η αύξηση είναι πολύ μεγαλύτερη ***6%***, επειδή με την αύξηση του ρολογιού επιταχύνονται τα στάδια του [**pipeline**](#minorcpu-pipeline) που δεν αφορούν προσβάσεις σε μνήμη.
 
@@ -162,12 +164,12 @@ Kρατήσαμε όλες τις **default** παραμέτρους ίδιες 
 
 | Memory Type | CPU type | Simulation Seconds (σε ms) |
 | --- | --- | --- |
-| DDR3_1600_8x8 | Minor | 0.334 |
-| DDR4_2400_8x8 | Minor | 0.333 |
-| LPDDR3_1600_1x32 | Minor | 0.340 |
-| DDR3_1600_8x8 | TimingSimple | 0.644 |
-| DDR4_2400_8x8 | TimingSimple | 0.643 |
-| LPDDR3_1600_1x32 | TimingSimple | 0.649 |
+| <div align="center">DDR3_1600_8x8</div> | <div align="center">Minor</div> | <div align="center">0.334</div> |
+| <div align="center">DDR4_2400_8x8</div> | <div align="center">Minor</div> | <div align="center">0.334</div> |
+| <div align="center">HMC_2500_1x32</div> | <div align="center">Minor</div> | <div align="center">0.334</div> |
+| <div align="center">DDR3_1600_8x8</div> | <div align="center">TimingSimple</div> | <div align="center">0.644</div> |
+| <div align="center">DDR4_2400_8x8</div> | <div align="center">TimingSimple</div> | <div align="center">0.644</div> |
+| <div align="center">HMC_2500_1x32</div> | <div align="center">TimingSimple</div> | <div align="center">0.644</div> |
 
 Θα περιμέναμε ότι οι αλλαγές στην *τεχνολογία* της μνήμης θα επιφέρανε και αλλαγές στον *χρόνο εκτέλεσης* (γρηγορότερη μνήμη = γρηγορότερες προσβάσεις στη μνήμη = γρηγορότερη εκτέλεση). Κάτι το οποίο δεν συμβαίνει όπως βλέπουμε και στον παραπάνω πίνακα. Πιθανολογούμε οτι αυτό συμβαίνει διότι το πρόγραμμα μας είναι αρκετά απλό, ώστε όλες οι προσβάσεις να γίνονται στην μνήμη **cache** και οι προσβάσεις στην **κύρια μνήμη** να είναι ελάχιστες.
 
@@ -185,12 +187,3 @@ Kρατήσαμε όλες τις **default** παραμέτρους ίδιες 
 [Gem5 Official Documentation](https://www.gem5.org/)
 
 [Gem5 Secondary Documentation](http://pages.cs.wisc.edu/~swilson/gem5-docs/index.html)
-
-
-
-
-
-
-
-    
-  
