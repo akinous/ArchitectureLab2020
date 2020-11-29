@@ -168,10 +168,10 @@ Kρατήσαμε όλες τις **default** παραμέτρους ίδιες 
 | --- | --- | --- |
 | <div align="center">DDR3_1600_8x8</div> | <div align="center">Minor</div> | <div align="center">0.334</div> |
 | <div align="center">DDR4_2400_8x8</div> | <div align="center">Minor</div> | <div align="center">0.334</div> |
-| <div align="center">HMC_2500_1x32</div> | <div align="center">Minor</div> | <div align="center">0.334</div> |
+| <div align="center">LPDDR3_1600_1x32</div> | <div align="center">Minor</div> | <div align="center">0.334</div> |
 | <div align="center">DDR3_1600_8x8</div> | <div align="center">TimingSimple</div> | <div align="center">0.644</div> |
 | <div align="center">DDR4_2400_8x8</div> | <div align="center">TimingSimple</div> | <div align="center">0.644</div> |
-| <div align="center">HMC_2500_1x32</div> | <div align="center">TimingSimple</div> | <div align="center">0.644</div> |
+| <div align="center">LPDDR3_1600_1x32</div> | <div align="center">TimingSimple</div> | <div align="center">0.644</div> |
 
 Θα περιμέναμε ότι οι αλλαγές στην *τεχνολογία* της μνήμης θα επιφέρανε και αλλαγές στον *χρόνο εκτέλεσης* (γρηγορότερη μνήμη = γρηγορότερες προσβάσεις στη μνήμη = γρηγορότερη εκτέλεση). Κάτι το οποίο δεν συμβαίνει όπως βλέπουμε και στον παραπάνω πίνακα. Πιθανολογούμε οτι αυτό συμβαίνει διότι το πρόγραμμα μας είναι αρκετά απλό, ώστε όλες οι προσβάσεις να γίνονται στην μνήμη **cache** και οι προσβάσεις στην **κύρια μνήμη** να είναι ελάχιστες.
 
