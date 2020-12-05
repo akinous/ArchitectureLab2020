@@ -26,7 +26,7 @@
    
       **Data Cache**
 
-       > size=65536 ή **64 KB** 
+       > size=65536 ή **64 KB**   
        > assoc=2
        
        
@@ -34,7 +34,7 @@
    
       **Instruction Cache**
 
-       > size=32768 ή **32 KB** 
+       > size=32768 ή **32 KB**    
        > assoc=2
        
        
@@ -43,7 +43,7 @@
    
       **L2 Cache**
 
-       > size=2097152 ή **2 MB** 
+       > size=2097152 ή **2 MB**    
        > assoc=2
        
        
