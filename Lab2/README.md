@@ -22,7 +22,8 @@
 
 Μελετώντας το **config.ini** έχουμε :
 
-> - Aπό `system.cpu.dcache` :
->    > size=65536  
->    > assoc=2
->
+ - Aπό `system.cpu.dcache` :
+ 
+     > size=65536  
+     > assoc=2
+
