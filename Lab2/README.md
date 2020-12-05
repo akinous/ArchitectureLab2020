@@ -24,4 +24,4 @@
 
   - Από system.cpu.dcache : 
    
-   **Data Cache**
+       **Data Cache**
