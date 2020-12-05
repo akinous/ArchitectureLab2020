@@ -24,4 +24,6 @@
 
 > - Aπό `system.cpu.dcache` :
 >    > size=65536
+>    
 >    > assoc=2
+>
