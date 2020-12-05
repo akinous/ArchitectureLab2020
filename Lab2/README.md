@@ -22,9 +22,35 @@
 
 Μελετώντας το **config.ini** έχουμε :
 
-  - Από system.cpu.dcache : 
+  - Από `[system.cpu.dcache]` : 
    
       **Data Cache**
 
-       > size=32768   
+       > size=65536 ή **64 KB** 
        > assoc=2
+       
+       
+  - Από `[system.cpu.icache]` : 
+   
+      **Instruction Cache**
+
+       > size=32768 ή **32 KB** 
+       > assoc=2
+       
+       
+       
+  - Από `[system.l2]` : 
+   
+      **L2 Cache**
+
+       > size=2097152 ή **2 MB** 
+       > assoc=2
+       
+       
+       
+  - Από `[system.l2]` : 
+   
+      **Cache Line Size**
+
+       > size=**64 B**
+       
