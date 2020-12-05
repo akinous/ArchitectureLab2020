@@ -26,5 +26,5 @@
    
       **Data Cache**
 
-        > size=32768   
-        > assoc=2
+       > size=32768   
+       > assoc=2
