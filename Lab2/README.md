@@ -23,4 +23,5 @@
 Μελετώντας το **config.ini** έχουμε :
 
   - Από system.cpu.dcache : 
-    **Data Cache**
+   
+   **Data Cache**
