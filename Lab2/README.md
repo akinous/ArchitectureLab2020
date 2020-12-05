@@ -25,3 +25,6 @@
   - Από system.cpu.dcache : 
    
       **Data Cache**
+
+        > size=32768   
+        > assoc=2
