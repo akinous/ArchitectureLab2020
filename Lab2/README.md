@@ -22,12 +22,12 @@
 
 Μελετώντας το **config.ini** έχουμε :
 
- - Aπό `system.cpu.dcache` :</br>
+- Aπό `system.cpu.dcache` :</br>
      
-     **L1 Data Cache**
+  **L1 Data Cache**
      
-      > size=65536 ή size=**64Kb**</br>
-      > assoc=2
- - Από `system.cpu.icache` 
+     > size=65536 ή size=**64Kb**</br>
+     > assoc=2
+- Από `system.cpu.icache` 
        
       **L1 Instruction cache**
