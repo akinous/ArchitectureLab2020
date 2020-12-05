@@ -25,7 +25,7 @@
  - Aπό `system.cpu.dcache` :
      **L1 Data Cache**
      
-     > size=65536 ή size=**64Kb**
+     > size=65536 ή size=**64Kb**</br>
      > assoc=2
  - Από `system.cpu.icache` 
        
