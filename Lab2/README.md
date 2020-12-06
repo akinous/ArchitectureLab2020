@@ -68,8 +68,8 @@
 
 | | bzip | mcf | hmmer | sjeng | libm |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| Execution Time (ms) | 83.654 | | | | |
-| CPI | 1.673085 | | | | | 
-| L1 dCache MissRate (%) | 1.4312 | | | | |
-| L1 iCache MissRate (%) | 0.0075 | | | | |
-| L2 Cache MissRate  (%)| 2.95247 | | | | |
+| Execution Time (ms) | 83.654 | 62.553 | 59.390 | | |
+| CPI | 1.673085 | 1.251067 | 1.187803 | | | 
+| L1 dCache MissRate (%) | 1.4312 | 0.2062 | 0.1628 | | |
+| L1 iCache MissRate (%) | 0.0075 | 1.9032 | 0.0212 | | |
+| L2 Cache MissRate  (%)| 29.5247 | 6.7668 | | | |
