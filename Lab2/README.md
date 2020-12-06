@@ -13,6 +13,8 @@
 
 ## Περιεχόμενα:
 > 1. [Εύρεση παραμέτρων για **default** υποσύστημα μνήμης](#εύρεση-παραμέτρων-για-default-υποσύστημα-μνήμης)
+>
+> 2. [Καταγραφή αποτελεσμάτων **benchmarks** για ***default*** τιμές](#καταγραφή-αποτελεσμάτων-benchmarks-για-default-τιμές)
 
 
 
@@ -66,8 +68,8 @@
 
 | | bzip | mcf | hmmer | sjeng | libm |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| Execution Time (ms) | | | | | |
-| CPI | | | | | | 
-| L1 dCache MissRate | | | | | |
-| L1 iCache MissRate | | | | | |
-| L2 Cache MissRate | | | | | |
+| Execution Time (ms) | 83.654 | | | | |
+| CPI | 1.673085 | | | | | 
+| L1 dCache MissRate (%) | 1.4312 | | | | |
+| L1 iCache MissRate (%) | 0.0075 | | | | |
+| L2 Cache MissRate  (%)| 2.95247 | | | | |
