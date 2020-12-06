@@ -54,3 +54,20 @@
 
        > size = **64 B**
        
+
+
+## Καταγραφή αποτελεσμάτων benchmarks για default τιμές
+
+Για την εύρεση αποτελεσμάτων ή στατιστικών στοιχείων ανατρέχουμε στο αρχείο **stats.txt** του εκάστοτε ***benchmark***.
+
+Έχουμε λοιπον : 
+
+
+
+| | bzip | mcf | hmmer | sjeng | libm |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Execution Time (ms) | | | | | |
+| CPI | | | | | | 
+| L1 dCache MissRate | | | | | |
+| L1 iCache MissRate | | | | | |
+| L2 Cache MissRate | | | | | |
