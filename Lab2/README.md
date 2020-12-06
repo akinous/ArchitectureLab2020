@@ -26,16 +26,16 @@
    
       **Data Cache**
 
-       > size=65536 ή **64 KB**   
-       > assoc=2
+       > size = 65536 ή **64 KB**   
+       > assoc = 2
        
        
   - Από `[system.cpu.icache]` : 
    
       **Instruction Cache**
 
-       > size=32768 ή **32 KB**    
-       > assoc=2
+       > size = 32768 ή **32 KB**    
+       > assoc = 2
        
        
        
@@ -43,8 +43,8 @@
    
       **L2 Cache**
 
-       > size=2097152 ή **2 MB**    
-       > assoc=2
+       > size = 2097152 ή **2 MB**    
+       > assoc = 2
        
        
        
@@ -52,5 +52,5 @@
    
       **Cache Line Size**
 
-       > size=**64 B**
+       > size = **64 B**
        
