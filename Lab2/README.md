@@ -73,3 +73,13 @@
 | L1 dCache MissRate (%) | 1.4312 | 0.2062 | 0.1628 | 12.1831 | 6.0972 |
 | L1 iCache MissRate (%) | 0.0075 | 1.9032 | 0.0212 | 0.0020 | 0.0095 |
 | L2 Cache MissRate  (%)| 29.5247 | 6.7668 | 7.8296 | 99.9978 | 99.9940 |
+
+
+
+
+<p align="center">
+  ## Χρόνος Εκτέλεσης (σε ms) για ολα τα Benchmarks
+  
+  
+  <img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/Execution%20Time%20(ms).png">
+</p>
