@@ -79,8 +79,6 @@
 
 <p style="text-align: center;font-size:46px;">
   
-  
-  
-  Χρόνος Εκτέλεσης (σε ms) για ολα τα Benchmarks 
-  <img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/Execution%20Time%20(ms).png">
+    Χρόνος Εκτέλεσης (σε ms) για ολα τα Benchmarks 
+    <img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/Execution%20Time%20(ms).png">
 </p>
