@@ -24,38 +24,37 @@
 
 Μελετώντας το **config.ini** έχουμε:
 
-
-  - Από `[system.cpu.dcache]`, (_line 169_ & _line 152_) : 
+  - Από `[system.cpu.dcache]` : 
    
-      **L1 Data Cache**
+      **Data Cache**
 
        > size = 65536 ή **64 KB**   
        > assoc = 2
        
        
-  - Από `[system.cpu.icache]`, (_line 833_ & _line 816_) : 
+  - Από `[system.cpu.icache]` : 
    
-      **L1 Instruction Cache**
+      **Instruction Cache**
 
        > size = 32768 ή **32 KB**    
        > assoc = 2
        
        
        
-  - Από `[system.l2]`, (_line 1078_ & _line 1061_) : 
+  - Από `[system.l2]` : 
    
       **L2 Cache**
 
        > size = 2097152 ή **2 MB**    
-       > assoc = 8
+       > assoc = 2
        
        
        
-  - Από `[system]`, (_line 15_) : 
+  - Από `[system.l2]` : 
    
       **Cache Line Size**
 
-       > cache_line_size = **64 B**
+       > size = **64 B**
        
 
 
@@ -75,9 +74,9 @@
 | L1 iCache MissRate (%) | 0.0075 | 1.9032 | 0.0212 | 0.0020 | 0.0095 |
 | L2 Cache MissRate  (%)| 29.5247 | 6.7668 | 7.8296 | 99.9978 | 99.9940 |
 
-
-
-
+<br>
+<br>
+<br>
 <p align=center> Χρόνος Εκτέλεσης (σε ms) για ολα τα Benchmarks </p>   
    
 <img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/Execution%20Time%20(ms).png">
