@@ -12,11 +12,9 @@
 ***ΑΕΜ: 8657***
 
 ## Περιεχόμενα:
-> 1.
+> 1. [Εύρεση παραμέτρων για **default** υποσύστημα μνήμης](#εύρεση-παραμέτρων-για-default-υποσύστημα-μνήμης)
 >
->   > a) [Εύρεση παραμέτρων για **default** υποσύστημα μνήμης](#εύρεση-παραμέτρων-για-default-υποσύστημα-μνήμης)
->
->   > b) [Καταγραφή αποτελεσμάτων **benchmarks** για ***default*** τιμές](#καταγραφή-αποτελεσμάτων-benchmarks-για-default-τιμές)
+> 2. [Καταγραφή αποτελεσμάτων **benchmarks** για ***default*** τιμές](#καταγραφή-αποτελεσμάτων-benchmarks-για-default-τιμές)
 
 
 
@@ -80,6 +78,19 @@
 <br>
 <br>
 <p align=center> Χρόνος Εκτέλεσης (σε ms) για όλα τα Benchmarks </p>   
-   
+<br>
+<br>
 <img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/Execution%20Time%20(ms).png">
+<br>
+<br>
+<img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/CPI.png">
+<br>
+<br>
+<img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/L1%20dCache%20MissRate%20(%25).png">
+<br>
+<br>
+<img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/L1%20iCache%20MissRate%20(%25).png">
+<br>
+<br>
+<img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/L2%20Cache%20MissRate%20(%25).png">
 
