@@ -74,7 +74,8 @@
 | L1 iCache MissRate (%) | 0.0075 | 1.9032 | 0.0212 | 0.0020 | 0.0095 |
 | L2 Cache MissRate  (%)| 29.5247 | 6.7668 | 7.8296 | 99.9978 | 99.9940 |
 
-
+<br>
+<br>
 
 ## Γραφική Αναπαράσταση των παραπάνω αποτελεμάτων  
 <br>
@@ -92,4 +93,9 @@
 <br>
 <br>
 <img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/L2%20Cache%20MissRate%20(%25).png">
+
+
+
+
+## Σχολιασμός των παραπάνω αποτελεσμάτων.
 
