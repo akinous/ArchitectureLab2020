@@ -87,17 +87,6 @@
 | L2 Cache MissRate  (%)| 29.5247 | 6.7668 | 7.8296 | 99.9978 | 99.9940 |
 
 
-
-
-https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/DifferentClocks.png
-
-
-Όπως αναμέναμε υποδιπλασιάζοντας την ταχύτητα του επεξεργαστή αυξηθηκε αρκετά ο χροόνος εκτέλεσης του εκάστοτε benchmark.
-
-
-
-
-
 <br>
 <br>
 
@@ -135,6 +124,13 @@ https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/Differe
 | L1 dCache MissRate (%) | 1.4123 | 0.2062 | 0.1619 | 12.1831 | 6.0972 |
 | L1 iCache MissRate (%) | 0.0075 | 1.9046 | 0.0212 | 0.0020 | 0.0095 |
 | L2 Cache MissRate  (%)| 29.5227 | 6.7668 | 7.8295 | 99.9978 | 99.9940 |
+
+
+
+https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/DifferentClocks.png
+
+
+Όπως αναμέναμε υποδιπλασιάζοντας την ταχύτητα του επεξεργαστή αυξηθηκε αρκετά ο χροόνος εκτέλεσης του εκάστοτε benchmark.
 
 
 Συμβουλευόμενοι το αρχείο **stats.txt**, το ρολόι `system.clk_domain.clock` είναι ρυθμισμένο στο 1 GHz (1000 ticks) και είναι υπεύθυνο για τον χρονισμό του ρολογιού του συστήματος. Από την άλλη, το ρολόι `system.cpu_clk_domain.clock` του επεξεργαστή ειναι **by default** χρονισμένο στα 2GHz(500 ticks) .  
