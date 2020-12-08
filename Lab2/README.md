@@ -130,7 +130,7 @@
 <br>
 <br>
 
-<img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/DifferentClocks.png">
+<img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/Differentclocks.png">
 
 #### Όπως αναμέναμε υποδιπλασιάζοντας την ταχύτητα του επεξεργαστή αυξηθηκε αρκετά ο χροόνος εκτέλεσης του εκάστοτε benchmark.
 
