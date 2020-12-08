@@ -86,6 +86,18 @@
 | L1 iCache MissRate (%) | 0.0075 | 1.9032 | 0.0212 | 0.0020 | 0.0095 |
 | L2 Cache MissRate  (%)| 29.5247 | 6.7668 | 7.8296 | 99.9978 | 99.9940 |
 
+
+
+
+https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/DifferentClocks.png
+
+
+Όπως αναμέναμε υποδιπλασιάζοντας την ταχύτητα του επεξεργαστή αυξηθηκε αρκετά ο χροόνος εκτέλεσης του εκάστοτε benchmark.
+
+
+
+
+
 <br>
 <br>
 
