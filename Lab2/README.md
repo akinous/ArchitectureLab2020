@@ -166,5 +166,16 @@
 
 
 
+<img srg="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/Icache_size_assoc.png" >
+
+
+Βλέπουμε οτι η διαφορά στο size απο 64 kb σε 128 kb και στο associativity απο 4 σε 8 είναι σχεδόν μηδαμινή. 
+
+
+
+
+
+
+
 
 
