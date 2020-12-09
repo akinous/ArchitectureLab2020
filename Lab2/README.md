@@ -159,8 +159,10 @@
 
 <img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/Dcache_size_assoc.png">
 
-Παρατηρούμε οτι 
+Παρατηρούμε οτι η αύξηση του cache associativity δεν έχει αξιόλογο αντίκτυπο στην μείωση του **Average CPI** οποτε δεδομένου οτι η αλλαγή του associativity θεωρείται ακριβή λόγω του πολυπλέκτη, μάλλον θα αποφασισουμε να το κρατήσουμε στο 2.
 
+
+Παρακάτω βλέπουμε τα αντίστοιχα διαγράμματα για την iCache.
 
 
 
