@@ -166,14 +166,14 @@
 
 
 
-<img srg="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/Icache_size_assoc.png">
+<img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/Icache_size_assoc.png">
 
 
 Βλέπουμε οτι η διαφορά στο size απο 64 kb σε 128 kb και στο associativity απο 4 σε 8 είναι σχεδόν μηδαμινή. 
 
 
 
-<src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/cache_line_size.png"> 
+<img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/cache_line_size.png"> 
 
 
 Η μεγαλύτερη διαφορά ως τωρα παρατηρείται στην μεταβολή του μεγέθους του **cache line** που σιγουρα ειναι λογικο διοτι οσο περισσοτερες πληροφοριες μπορει να δεχεται η μνημη cache τοσο πιο απίθανο ειναι να υπάρχουν misses και κατα συνεπεια χρονικές απώλειες.
@@ -184,7 +184,7 @@
 Ας δούμε τωρα πως επηρεάζει η **l2 cache** την αποδοση του *gem 5* .
 
 
-<src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/Icache_size_assoc.png">
+<img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/Icache_size_assoc.png">
 
 Όσων αφορά το **size** παλι βρισκομαστε στην περιπτωση οπου ναι μεν υπαρχει μειωση αλλα δεν ειναι αρκετη για να χρειαστει να αλλαξουμε το configuration.
 Η μεταβολη του associativity απ την αλλη οχι απλα δεν βοηθαει αλλα οπως βλεπουμε ειναι και εντελως αντιπαραγωγικη.
