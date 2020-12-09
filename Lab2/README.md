@@ -184,7 +184,7 @@
 Ας δούμε τωρα πως επηρεάζει η **l2 cache** την αποδοση του *gem 5* .
 
 
-<img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/Icache_size_assoc.png">
+<img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/Icache1_size_assoc.png">
 
 Όσων αφορά το **size** παλι βρισκομαστε στην περιπτωση οπου ναι μεν υπαρχει μειωση αλλα δεν ειναι αρκετη για να χρειαστει να αλλαξουμε το configuration.
 Η μεταβολη του associativity απ την αλλη οχι απλα δεν βοηθαει αλλα οπως βλεπουμε ειναι και εντελως αντιπαραγωγικη.
@@ -200,13 +200,13 @@
 
 | Param | Value |
 | :---: | :---: |
-| dCache size | |
-| dCache assoc | |
-| iCache size | |
-| iCache assic | |
-| l2 Cache size | |
-| l2 Cache assoc | |
-| cache line size | |
+| dCache size | 192 kb |
+| dCache assoc | 4 |
+| iCache size | 64 kb |
+| iCache assic | 4 |
+| l2 Cache size | 8 Mb |
+| l2 Cache assoc | 4 |
+| cache line size | 128 |
 
 
 
