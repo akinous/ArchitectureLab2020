@@ -157,6 +157,12 @@
 
 
 
+<img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/Dcache_size_assoc.png">
+
+Παρατηρούμε οτι 
+
+
+
 
 
 
