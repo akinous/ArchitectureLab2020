@@ -200,7 +200,7 @@
 
 | Param | Value |
 | :---: | :---: |
-| dCache size | 192 kb |
+| dCache size | 128 kb |
 | dCache assoc | 4 |
 | iCache size | 64 kb |
 | iCache assic | 4 |
