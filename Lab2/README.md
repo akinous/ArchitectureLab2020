@@ -209,6 +209,21 @@
 | cache line size | 128 |
 
 
+<br>
+
+<br>
+
+
+<img src="https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/gem5images/default_cache_opt.png">
+
+
+<br>
+
+Βλέπουμε πως η διαφορά μεταξυ των maxed out settings και του απλά να μεταβάλουμε το **cache line size** ειναι της ταξεως του **1.5%** δηλαδη αμελητεα.
+
+Άρα ήδη αντιλαμβανόμαστε οτι μια συμφερουσα λυση ειναι να διατηρηθουν ολα τα settings **default** και να μεταβληθει το **cache line size** στα 128 byte.
+
+
 
 
 
