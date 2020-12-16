@@ -11,3 +11,6 @@ _Τμήμα Ηλεκτρολόγων Μηχανικών και Μηχανικώ�
 ## Εργασίες
 - ### [_1<sup>ο</sup> Εργαστήριο Αρχιτεκτονικής Υπολογιστών_](https://github.com/akinous/ArchitectureLab2020/blob/main/Lab1/README.md)
 - ### [_2<sup>ο</sup> Εργαστήριο Αρχιτεκτονικής Υπολογιστών_](https://github.com/akinous/ArchitectureLab2020/blob/main/Lab2/README.md)
+- ### [_3<sup>ο</sup> Εργαστήριο Αρχιτεκτονικής Υπολογιστών_](https://github.com/akinous/ArchitectureLab2020/blob/main/Lab3/README.md)
+
+
