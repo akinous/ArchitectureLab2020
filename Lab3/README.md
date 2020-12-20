@@ -45,7 +45,7 @@
     sudo apt install libc6-dev-i386
     sudo apt install gcc-7-multilib g++-7-multilib  
 
-Στη συνέχεια, η ακολουθεί διερεύνηση με χρήση των αρχείων ***xml*** που βρίσκονται στον φάκελο `~/my_mcpat/mcpat/ProcessorDescriptionFiles`.
+Στη συνέχεια, ακολουθεί διερεύνηση με χρήση των αρχείων ***xml*** που βρίσκονται στον φάκελο `~/my_mcpat/mcpat/ProcessorDescriptionFiles`.
 
 
 
