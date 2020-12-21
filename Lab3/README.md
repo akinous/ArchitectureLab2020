@@ -91,6 +91,8 @@
 
     ./mcpat -infile ProcessorDescriptionFiles/ARM_A9_2GHz.xml -print_level 5
 
+Αντιπαραθέτουμε τα βασικά αποτελέσματα για τους δύο επεξεργαστές:
+
 | | **Xeon** | **ARM A9 (2 GHz)** |
 | :---: | :---: | :---: |
 | Area | 410.507 mm<sup>2</sup> | 5.39698 mm<sup>2</sup> |
