@@ -24,6 +24,8 @@
 > [**_Βήμα 2<sup>ο</sup> - gem5 & McPAT: αναζητώντας τη βελτιστοποίηση του γινομένου EDP_**](#gem5-mcpat-αναζητώντας-τη-βελτιστοποίηση-του-γινομένου-edp)
 >
 > [**Κριτική Εργασίας**](#κριτική-εργασίας)
+>
+> [**Πηγές**](#πηγές)
 
 
 
@@ -125,3 +127,11 @@
 
 
 # Κριτική Εργασίας
+
+
+
+# Πηγές
+
+[Wikipedia - Processor power dissipation](https://en.wikipedia.org/wiki/Processor_power_dissipation)  
+
+Hennessy J L., Patterson D A. 2012 *Computer architecture, A Quantitative Approach*, 5<sup>th</sup> Edition
