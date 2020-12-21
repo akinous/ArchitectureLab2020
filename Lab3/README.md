@@ -134,6 +134,8 @@
 
 Hennessy J L., Patterson D A. 2012 *Computer architecture, A Quantitative Approach*, 5<sup>th</sup> Edition
 
+[HP Labs - McPAT](https://www.hpl.hp.com/research/mcpat/)
+
 [Wikipedia - Processor power dissipation](https://en.wikipedia.org/wiki/Processor_power_dissipation)  
 
-[HP Labs - McPAT](https://www.hpl.hp.com/research/mcpat/)
+[Wikipedia - Performance per Watt](https://en.wikipedia.org/wiki/Performance_per_watt)
