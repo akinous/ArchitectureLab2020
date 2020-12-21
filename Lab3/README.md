@@ -132,6 +132,8 @@
 
 # Πηγές
 
+Hennessy J L., Patterson D A. 2012 *Computer architecture, A Quantitative Approach*, 5<sup>th</sup> Edition
+
 [Wikipedia - Processor power dissipation](https://en.wikipedia.org/wiki/Processor_power_dissipation)  
 
-Hennessy J L., Patterson D A. 2012 *Computer architecture, A Quantitative Approach*, 5<sup>th</sup> Edition
+[HP Labs - McPAT](https://www.hpl.hp.com/research/mcpat/)
