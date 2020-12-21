@@ -50,7 +50,17 @@
 
     ./mcpat -infile ProcessorDescriptionFiles/Xeon.xml -print_level 5  
 
+Συγκεκριμένα, στην αρχή των αποτελεσμάτων, παρατηρούμε τα εξής:  
 
+>***Processor***:
+>* *Area = 410.507 mm<sup>2</sup>*
+>* *Peak Power = 134.938 W*
+>* *Total Leakage = 36.8319 W*
+>* *Peak Dynamic = 98.1063 W*
+>* *Subthreshold Leakage = 35.1632 W*
+>* *Subthreshold Leakage with power gating = 16.3977 W*
+>* *Gate Leakage = 1.66871 W*
+>* *Runtime Dynamic = 72.9199 W*
 
 Η **ισχύς** που καταναλώνεται σε μια συσκευή διακρίνεται σε ***dynamic*** ή ***switching*** power, καθώς και σε ***leakage*** ή ***static*** power. 
 * H δυναμική ισχύς (*dynamic power*) είναι ανάλογη της συχνότητας λειτουργίας του transistor. Όσο αυξάνεται η επίδοση (ταχύτητα και συχνότητα) του ολοκληρωμένου κυκλώματος τόσο αυξάνεται και η δυναμική ισχύς. 
